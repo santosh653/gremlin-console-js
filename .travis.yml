@@ -3,8 +3,8 @@ arch:
 - ppc64le
 language: node_js
 node_js:
-- 5.9
-- 5
+- 13
+- 14
 sudo: required
 install:
 - sh -c ./build/jdk8-install.sh
